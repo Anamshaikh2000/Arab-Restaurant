@@ -1,0 +1,1104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My restaurant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!---Navbar-->
+  <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="/images/foodlogo.png" height="50px" width="150px" class="mr-2" />
+        <span class="arab mt-0" style="font-size: 1rem;">
+            <h2 class="arab mb-0" style="font-size: 1.5rem;">The Arab's</h2>
+        </span>
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto ">
+          <li class="nav-item ">
+            <a class="nav-link active fw-bold " aria-current="page" href="#navbar">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active fw-bold " aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active  fw-bold" aria-current="page" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active fw-bold " aria-current="page" href="#features">Features</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active fw-bold " aria-current="page" href="#reservation">Reservations</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active fw-bold " aria-current="page" href="register.html">Register</a>
+          </li>
+        </ul>
+        <a href="#" class="btn btn-brand" data-toggle="modal" data-target="#orderModal">Order Now!</a>
+      </div>
+    </div>
+  </nav>
+  <!---nav ends-->
+
+  <!--slider-->
+  <div id="hero-slider" class="carousel slide" data-bs-touch="false">
+    <div class="carousel-inner">
+
+      <div class="carousel-item text-center active slider-1 vh-100">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h6 class="fw-bold text-white">WELCOME TO THE ARAB'S</h6>
+              <h1 class="display-1 fw-bolder text-white">Char Grilled and flavour-filled</h1>
+              <a href="#" class="btn btn-brand mt-2" data-bs-toggle="modal" data-bs-target="#reservationModal">Book a Table</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item text-center slider-2 vh-100 ">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h6 class="fw-bold text-white">WELCOME TO THE ARAB'S</h6>
+              <h1 class="display-1 fw-bolder fw-light text-white">Fresh and Tasty Serves</h1>
+              <a href="#" class="btn btn-brand mt-3">Order It!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item text-center slider-3 vh-100 ">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h6 class="fw-bold text-white">WELCOME TO THE ARAB'S</h6>
+              <h1 class="display-1 fw-bolder fw-light text-white">Dine In or Take Away</h1>
+              <a href="#" class="btn btn-brand mt-3">Grab Now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#hero-slider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#hero-slider" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--slider ends-->
+
+  <!--About-->
+  <section id="about">
+    <div class="container">
+      <div class="row gy-4 align-items-center">
+        <div class="col-lg-5 mb-4">
+          <img src="/images/about2.png" />
+        </div>
+        <div class="col-lg-5 ">
+          <h1>About Us</h1>
+          <div class="divider">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit enim saepe officia quaerat atque, a
+              obcaecati rem quod labore dolorum sed doloremque excepturi dolore minus soluta. Similique ipsam harum a.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, temporibus id cupiditate deleniti
+              molestias excepturi recusandae sunt doloremque tenetur cumque nesciunt error reiciendis itaque rerum
+              officiis? Optio impedit ducimus perferendis.</p>
+            <a href="#" class=" btn btn-brand">Explore Menu</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--About ends-->
+
+  <!--menu-->
+  <section id="menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro-text ">
+          <h1 class="text-dark fw-bold">Explore our Menu</h1>
+          <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Libero quas modi asperiores animi nisi, a, </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container ">
+      <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+            type="button" role="tab" aria-controls="pills-all" aria-selected="true">All Dishes</button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <button class="nav-link " id="pills-starter-tab" data-bs-toggle="pill" data-bs-target="#pills-starter"
+            type="button" role="tab" aria-controls="pills-starter" aria-selected="true">Starters </button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <button class="nav-link " id="pills-mainCourse-tab" data-bs-toggle="pill" data-bs-target="#pills-mainCourse"
+            type="button" role="tab" aria-controls="pills-mainCourse" aria-selected="true">MainCourses </button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <button class="nav-link " id="pills-beverages-tab" data-bs-toggle="pill" data-bs-target="#pills-beverages"
+            type="button" role="tab" aria-controls="pills-beverages" aria-selected="true">Beverages </button>
+        </li>
+
+      </ul>
+
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+          tabindex="0">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food9.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food10.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food11.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food12.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food13.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food14.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food10.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food9.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food10.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food11.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food11.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food11.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show " id="pills-starter" role="tabpanel" aria-labelledby="pills-starter-tab"
+          tabindex="0">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food9.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food10.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food11.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food11.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show " id="pills-mainCourse" role="tabpanel" aria-labelledby="pills-mainCourse-tab"
+          tabindex="0">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food9.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food10.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food11.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food9.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food11.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food10.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food11.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show " id="pills-beverages" role="tabpanel" aria-labelledby="pills-beverages-tab"
+          tabindex="0">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food9.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food10.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food11.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food11.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food11.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-items bg-white shadow-on-hover">
+                <img src="/images/products/food11.png" />
+                <div class="menu-item-content p-4">
+                  <div>
+                    Rated 4.5
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Mansaf</a></h5>
+                  <p class="small">This celebratory meal features tender lamb, seasoned rice, and a distinctive sauce made from
+                    fermented yogurt called jameed.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <!--menu ends-->
+
+
+  <!--Features-->
+  <section id="features" class="bg-cover mt-4">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-12 intro-text ">
+          <h1 class="text-white">Why to Choose Us</h1>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Libero quas modi asperiores animi nisi, a, </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <div class="features p-4 text-center">
+            <div class="features-icon">
+              <i class="fa-solid fa-wifi"></i>
+            </div>
+            <h4 class="text-white mt-4 mb-2">Free wifi</h4>
+            <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="features p-4 text-center">
+            <div class="features-icon">
+              <i class="fa-solid fa-bowl-food"></i>
+            </div>
+            <h4 class="text-white mt-4 mb-2">Hot Serves</h4>
+            <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="features p-4 text-center">
+            <div class="features-icon">
+              <i class="fa-solid fa-people-roof"></i>
+            </div>
+            <h4 class="text-white mt-4 mb-2">Freindly Staff</h4>
+            <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="features p-4 text-center">
+            <div class="features-icon">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="text-white mt-4 mb-2">Highly Rated</h4>
+            <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--features end-->
+
+  <!--testimonials-->
+  <section id="reviews" class="bg-cover mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro-text ">
+          <h1 class="text-white">What our Client says...</h1>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Libero quas modi asperiores animi nisi, a, </p>
+        </div>
+      </div>
+      <div id="reviewSlider" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+        </div>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="review bg-white p-5 text-center">
+                  <div class="review-icon"><i class="fa-solid fa-quote-left"></i></div>
+                  <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur vel ut ipsam,
+                    laboriosam facilis beatae laudantium quas sint impedit deleniti tenetur eum id corporis placeat et
+                    eligendi modi ipsum omnis.</p>
+                  <div class="person">
+                    <img src="/images/girl.png" />
+                    <h4 class="mt-2 mb-0">Anne Mark</h4>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="review bg-white p-5 text-center">
+                    <div class="review-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur vel ut ipsam,
+                      laboriosam facilis beatae laudantium quas sint impedit deleniti tenetur eum id corporis placeat et
+                      eligendi modi ipsum omnis.</p>
+                    <div class="person">
+                      <img src="/images/girl.png" />
+                      <h4 class="mt-2 mb-0">Mark</h4>
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+  </section>
+  <!--testimonial ends-->
+
+  <!---Reservation---->
+  <section id="reservation">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro-text ">
+          <h1>Book Your Table</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Libero quas modi asperiores animi nisi, a, </p>
+        </div>
+      </div>
+      <form action="#" class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="row gy-3">
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control" placeholder="full name" />
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" placeholder="Email Address" />
+            </div>
+            <div class="form-group col-md-6">
+              <input type="date" class="form-control" placeholder="Date" />
+            </div>
+            <div class="form-group col-md-6">
+              <input type="time" class="form-control" placeholder="Time" />
+            </div>
+            <div class="form-group col-md-12">
+              <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Enter Message"></textarea>
+            </div>
+            <div class="form-group text-center col-md-12 ">
+              <a href="#" class="btn btn-brand text-center">Send Message</a>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!--reservation ends-->
+
+  <!--footer start-->
+  <div class="row bg-dark footer pt-4 mt-5">
+    <div class="col-sm-12 text-light text-center ">
+      <img src="images/foodlogo.png" />
+      <h4 class="text-white fw-bold">The Arab's</h4>
+      <p>Our kitchen is a playground for creativity, where our<br />
+        skilled chefs fuse traditional flavors with modern techniques
+        to craft dishes <br>that tantalize the taste buds. We take pride
+        in sourcing the <br>finest, freshest ingredients, ensuring that
+        every bite is a celebration of quality and flavor.</p>
+      <p>&copy; copyright 2023-2050 all right reserved. Designed and developed by <b>Anam Sheikh</b></p>
+      <div class="col-sm-12 text-center pt-2">
+        <ul class="smi">
+          <li class="text-dark"><i class="fa-brands fa-facebook"></i></li>
+          <li class="text-dark"><i class="fa-brands fa-square-instagram"></i></li>
+          <li class="text-dark"><i class="fa-brands fa-twitter"></i></li>
+          <li class="text-dark"><i class="fa-brands fa-google"></i></li>
+        </ul>
+
+      </div><!--social media icons-->
+    </div>
+  </div>
+
+
+  <!--footer end-->
+
+  <!-- Modal book a table-->
+<div class="modal fade" id="reservationModal" tabindex="-1" aria-labelledby="reservationModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class=" text-center text-dark modal-title " id="reservationModalLabel">Book a Table</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Add your reservation form content here -->
+         <!---form-->
+    <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-md-8">
+              <!-- Form started -->
+              <div class="register-form">
+                  <form class="row g-3 justify-content-center">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control text-success" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control text-success" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control text-success" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Address 2</label>
+                      <input type="text" class="form-control text-success" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control text-success" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control text-success" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-success">Sign in</button>
+                    </div>
+                  </form>
+              </div>
+              <!-- Form ended -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--modal of booking table ended-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
